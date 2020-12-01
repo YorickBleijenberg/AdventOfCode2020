@@ -1,4 +1,4 @@
-puz.01 <- paste0("C:\\Rdir\\Advent\\puzzle.01.csv")
+puz.01 <- paste0("puzzle_01.csv")
 puzzle.01 <- read.csv(puz.01,sep=";")  
 
 colnames(puzzle.01) = "number"
